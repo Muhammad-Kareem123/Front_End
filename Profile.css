@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #333; 
+    margin: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #98FF98;
+}
+
+h6 {
+    color: #98FF98; 
+    margin: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.skills {
+    background-color: #181818; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #98FF98; 
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    color: #333;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h4{
+    color: #98FF98;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #78e978; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 15px;
+    margin: 5px;
+    
+}
+.projects
+{
+    background-color: #181818;
+        padding: 1px;
+    border-radius: 15px;
+}
+
+input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    stroke: #98FF98;
+    margin-left: 25px;
+    
+}
+input[type="text"]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    stroke: #98FF98;
+}
+
+
+form button {
+    background-color: #98FF98;
+    border: none;
+    color: #333333;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 29%;
+}
+
+form button:hover {
+    background-color: #78e978; 
+}
+label {
+    color: #98FF98;
+}
+.about
+{
+    color: #98FF98;
+}
+
+p {
+    text-align: center;
+}
+.contact
+{
+    margin-left: 30%    ;
+}
+.contact h4
+{
+    margin-right: 35%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #98FF98;
+    
+}
+.projects img {
+    padding: 5px;
+}
+ header img 
+ {
+    width: 3%;          /* اجعل الصورة تأخذ عرض 100% من العنصر الأب */
+    height: auto;         /* حافظ على النسبة بين العرض والارتفاع */
+    max-width: 100%;
+ }
